@@ -1,0 +1,52 @@
+body{
+   background-color: rgba(92, 90, 90, 0.53);
+   margin: 0;
+}
+div{
+  box-sizing: border-box;
+}
+header{
+  background: #fff;
+}
+header h1{
+  margin: 0;
+}
+div.post{
+  background-color: #fff;
+}
+div.post img{
+  width: 100%;
+  margin: 0;
+}
+div.post .post-header div:first-child{
+display: inline-block;
+width: 90%;
+}
+div.post .post-header div:last-child{
+display: inline-block;
+width: 20%;
+padding: 10px;
+text-align: right;
+color: gray;
+}
+div.post h2, div.post p{
+  padding: 5px;
+
+}
+div.container{
+  width: 600px;
+  margin: auto;
+}
+.commentario{
+	padding:0px 14px;
+   }
+
+   div p{
+     margin: 10px;
+   }
+   span{
+     color: gray;
+   }
+article{
+  margin: 40px 40px;
+}
